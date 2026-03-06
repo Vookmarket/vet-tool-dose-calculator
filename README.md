@@ -13,7 +13,7 @@
 ## 必要なもの
 
 - Python 3.10以上
-- Ollama + Qwen3モデル（ローカルで動作、インターネット不要）
+- Ollama + Qwen3.5モデル（ローカルで動作、インターネット不要）
 
 ## インストール
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```bash
 # Ollamaをインストール（https://ollama.com）
 # Qwen3モデルをダウンロード
-ollama pull qwen3:14b-q8_0
+ollama pull qwen3.5:9b-q8_0
 ```
 
 ## 使い方

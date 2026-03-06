@@ -6,7 +6,7 @@ Vet Tools Daily #1
 体重と薬剤名（または症状）を入力すると、
 犬猫の一般的な薬用量をAIが計算して表示します。
 
-LLM: Ollama (Qwen3 14B) をローカルで使用
+LLM: Ollama (Qwen3.5 9B) をローカルで使用
 """
 
 import json
@@ -24,7 +24,7 @@ except ImportError:
 
 # --- 設定 ---
 OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "qwen3:14b-q8_0"
+OLLAMA_MODEL = "qwen3.5:9b-q8_0"
 
 DISCLAIMER = (
     "\n⚠️ 注意: このツールの出力はAIによる参考情報です。\n"
