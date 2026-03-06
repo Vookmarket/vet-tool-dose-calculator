@@ -103,4 +103,4 @@ MIT License
 毎日、動物病院で使えるAIツールを公開するプロジェクトです。
 
 - note（一般向け）: https://note.com/investerinarian
-- Qiita（技術向け）: https://qiita.com/bookma
+- Qiita（技術向け）: （準備中）
